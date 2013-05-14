@@ -18,6 +18,9 @@
 		8BF4EB931741BA4B00F63FB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF4EB921741BA4B00F63FB9 /* Default-568h@2x.png */; };
 		8BF4EB961741BA4B00F63FB9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF4EB941741BA4B00F63FB9 /* MainStoryboard.storyboard */; };
 		8BF4EB991741BA4B00F63FB9 /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4EB981741BA4B00F63FB9 /* KLViewController.m */; };
+		8BF4EBA01741BB3A00F63FB9 /* Sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF4EB9F1741BB3A00F63FB9 /* Sun.jpg */; };
+		8BF4EBA31741BCA300F63FB9 /* SingletonCIContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4EBA21741BCA300F63FB9 /* SingletonCIContext.m */; };
+		8BF4EBA51741BE4900F63FB9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF4EBA41741BE4900F63FB9 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		8BF4EB951741BA4B00F63FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8BF4EB971741BA4B00F63FB9 /* KLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
 		8BF4EB981741BA4B00F63FB9 /* KLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
+		8BF4EB9F1741BB3A00F63FB9 /* Sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sun.jpg; sourceTree = "<group>"; };
+		8BF4EBA11741BCA300F63FB9 /* SingletonCIContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonCIContext.h; sourceTree = "<group>"; };
+		8BF4EBA21741BCA300F63FB9 /* SingletonCIContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonCIContext.m; sourceTree = "<group>"; };
+		8BF4EBA41741BE4900F63FB9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF4EBA51741BE4900F63FB9 /* CoreImage.framework in Frameworks */,
 				8BF4EB7D1741BA4A00F63FB9 /* UIKit.framework in Frameworks */,
 				8BF4EB7F1741BA4A00F63FB9 /* Foundation.framework in Frameworks */,
 				8BF4EB811741BA4A00F63FB9 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +81,7 @@
 		8BF4EB7B1741BA4A00F63FB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BF4EBA41741BE4900F63FB9 /* CoreImage.framework */,
 				8BF4EB7C1741BA4A00F63FB9 /* UIKit.framework */,
 				8BF4EB7E1741BA4A00F63FB9 /* Foundation.framework */,
 				8BF4EB801741BA4A00F63FB9 /* CoreGraphics.framework */,
@@ -83,11 +92,14 @@
 		8BF4EB821741BA4A00F63FB9 /* DemoCoreImage */ = {
 			isa = PBXGroup;
 			children = (
+				8BF4EB9F1741BB3A00F63FB9 /* Sun.jpg */,
 				8BF4EB8B1741BA4A00F63FB9 /* KLAppDelegate.h */,
 				8BF4EB8C1741BA4A00F63FB9 /* KLAppDelegate.m */,
 				8BF4EB941741BA4B00F63FB9 /* MainStoryboard.storyboard */,
 				8BF4EB971741BA4B00F63FB9 /* KLViewController.h */,
 				8BF4EB981741BA4B00F63FB9 /* KLViewController.m */,
+				8BF4EBA11741BCA300F63FB9 /* SingletonCIContext.h */,
+				8BF4EBA21741BCA300F63FB9 /* SingletonCIContext.m */,
 				8BF4EB831741BA4A00F63FB9 /* Supporting Files */,
 			);
 			path = DemoCoreImage;
@@ -164,6 +176,7 @@
 				8BF4EB911741BA4A00F63FB9 /* Default@2x.png in Resources */,
 				8BF4EB931741BA4B00F63FB9 /* Default-568h@2x.png in Resources */,
 				8BF4EB961741BA4B00F63FB9 /* MainStoryboard.storyboard in Resources */,
+				8BF4EBA01741BB3A00F63FB9 /* Sun.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +190,7 @@
 				8BF4EB891741BA4A00F63FB9 /* main.m in Sources */,
 				8BF4EB8D1741BA4A00F63FB9 /* KLAppDelegate.m in Sources */,
 				8BF4EB991741BA4B00F63FB9 /* KLViewController.m in Sources */,
+				8BF4EBA31741BCA300F63FB9 /* SingletonCIContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface KLViewController : UIViewController
+- (IBAction)blurSun:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *sunImage;
 
 @end
